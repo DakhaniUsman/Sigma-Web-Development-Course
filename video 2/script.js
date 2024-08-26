@@ -1,0 +1,1 @@
+alert("Welcome to Ironcrad | Welcome to SAO");

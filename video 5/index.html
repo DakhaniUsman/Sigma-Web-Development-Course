@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="train.jpg" alt="train image" width="100%" height="auto">
+    <!-- img has two main attributes src (path of image) and alt (text when image unable to display) -->
+
+    <H2>HTML Tables</H2>
+
+    <!-- Grouping in tables
+        table > thead >(tr>th) + tbody >(tr>th) + tfoot >(tr>th)
+    -->
+
+    <table>
+        <caption>Sword Art Online</caption>
+        <thead>
+            <tr> <!-- Table row -->
+                <th>Name</th> <!-- Table Heading -->
+                <th>Age</th>
+                <th>Skills</th>
+                <th>Sword</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Kirito</td> <!-- Table Data -->
+                <td>21</td>
+                <td rowspan="2">Swordsman</td>
+                <td>The Elucidator</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Asuna</td> <!-- Table Data -->
+                <td>22</td>
+                <td>Swordsman</td>
+                <td>Raito</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Lists in HTML</h2>
+
+    <h3>Unordered List</h3>
+    <ul type="circle">
+        <li>Sunday</li>
+        <li>Monday</li>
+        <li>Tuesday</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol type="a">
+        <li>Sunday</li>
+        <li>Monday</li>
+        <li>Tuesday</li>
+    </ol>
+
+    <h3>Description List</h3>
+
+    <dl> <!-- Description List  -->
+        <dt>HTML</dt> <!-- Description Term -->
+            <dd>HTML is Hyper Text Markup Language used to define the structure of webpage</dd>   <!-- Description Data -->
+        
+        <dt>CSS</dt> <!-- Description Term -->
+            <dd>CSS is used for styling and making the webpage more visually appealing</dd>   <!-- Description Data -->
+        
+        <dt>JS</dt> <!-- Description Term -->
+            <dd>JavaScript is a scripting language used to provide interactivity on a webpage and proivde dynamic content     </dd>   <!-- Description Data -->
+    </dl>
+</body>
+
+</html>
