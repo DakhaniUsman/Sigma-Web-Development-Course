@@ -1,0 +1,21 @@
+SEO standsfor Search Engine Optimization
+
+SEO is the process of optimizing content and webpages to help search engines understand them and help users find them in search results
+
+. fast loading
+. quality information
+. best user experience
+
+Core Web Vitals
+
+. content 
+. CLS (Cumulative Layout Shift) is a metric that measures how much a website's layout shifts as content changes or loads 
+
+means ki tere website ka layout kitna change ho rha hai wahiu matlab agar tu cancel pe click kr rha hai but next page pe wahi jagahh pe proceed aaga to not good
+
+. LCP (Largest  Contentful Paint) means how long it takes for the website to display its main content  
+    2.5 s is good  
+
+. FID (First Input Delay)
+    its the time that website takes to process the users interaction
+    
