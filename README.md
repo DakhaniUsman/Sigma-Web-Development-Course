@@ -1,2 +1,3 @@
 # Sigma Web Development Course
- Sigma Web Development by Code with Harry 
+ This is a new journey as a RESTART to the Web Development
+ Learning Sigma Web Development - COde with Harry
